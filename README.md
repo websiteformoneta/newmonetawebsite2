@@ -1,2 +1,1 @@
-# newmonetawebsite2
-Claude Design
+https://websiteformoneta.github.io/newmonetawebsite2/

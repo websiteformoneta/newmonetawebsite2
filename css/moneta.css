@@ -15,11 +15,11 @@ a { text-decoration: none; color: inherit; }
 
 /* ── Variables ───────────────────────────────────────────── */
 :root {
-  --navy:        #111D2D;
-  --navy-deep:   #0b1520;
-  --navy-mid:    #162437;
-  --navy-surface:#1c2d40;
-  --navy-bright: #1e3a58;
+  --navy:        #152234;
+  --navy-deep:   #0e1c2e;
+  --navy-mid:    #1a2d42;
+  --navy-surface:#203447;
+  --navy-bright: #234060;
   --blue:        #3B94D0;
   --blue-dim:    rgba(59,148,208,0.14);
   --orange:      #F36A22;
@@ -123,6 +123,7 @@ a { text-decoration: none; color: inherit; }
 }
 .signal-strip__sep { color: var(--orange); font-size: 0.55rem; opacity: 0.8; }
 @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.signal-strip:hover .signal-strip__track { animation-play-state: paused; cursor: default; }
 
 /* ── Hero ────────────────────────────────────────────────── */
 .hero {
